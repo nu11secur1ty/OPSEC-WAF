@@ -13,6 +13,7 @@ print "Type Your path of root doc on your Apache...\n";
 print "Type the real path of your httpd.conf...\n";    
     my $httpd = <STDIN>;
     my $inst_httpd = `cp /modules/httpd.conf $httpd`;
+    my $inst_httpd_apache2 = `cp /modules/apache2.conf $httpd`;
 
     
 print "All is done\n";
