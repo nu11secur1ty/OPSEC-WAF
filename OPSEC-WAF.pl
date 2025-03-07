@@ -6,7 +6,7 @@ use diagnostics;
 
 print "Type Your path of root doc on your Apache...\n";
     my $dir = <STDIN>;
-    my $inst = `cp .htaccess $dir`;
+    my $inst = `cp /modules/.htaccess $dir`;
 print "Type the real path of your httpd.conf...\n";    
     my $httpd = <STDIN>;
     my $inst_httpd = `cp httpd.conf $httpd`;
